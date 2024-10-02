@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Övning
 {
-    public class Vehicle
+    public abstract class Vehicle
     {
         public virtual void Go()
         {
