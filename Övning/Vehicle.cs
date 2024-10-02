@@ -8,7 +8,10 @@ namespace Övning
 {
     public class Vehicle
     {
-
+        public virtual void Go()
+        {
+            Console.WriteLine("Nothing here baseClass.");
+        }
 
     }
 }

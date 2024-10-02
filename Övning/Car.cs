@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Övning
 {
-    internal class Car : Vehicle
+    public class Car : Vehicle
     {
+        public override void Go()
+        {
+            Console.WriteLine("Jag kör min bil.");
+        }
+
     }
 }

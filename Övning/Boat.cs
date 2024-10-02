@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Övning
 {
-    internal class Boat : Vehicle
+    public class Boat : Vehicle
     {
+        public override void Go()
+        {
+            Console.WriteLine("Jag seglar i min båt.");
+        }
+
     }
 }
